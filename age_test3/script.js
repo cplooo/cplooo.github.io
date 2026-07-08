@@ -136,7 +136,7 @@ function recognizeFaces(){
            console.log("send to adafruit")
            
             $.ajax({
-                url: "https://io.adafruit.com/api/v2/"+inputtextUser.value+"/feeds/age-test3/data?X-AIO-Key="+inputtext.value,
+                url: "https://io.adafruit.com/api/v2/"+inputtextUser.value+"/feeds/agetest3/data?X-AIO-Key="+inputtext.value,
                 type: "POST",
                 data: {
                   "value":parseInt(age)
